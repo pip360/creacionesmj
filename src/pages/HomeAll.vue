@@ -53,7 +53,7 @@
                             comodidad!</p>
                     </div>
                     <div class="four columns icono icono2">
-                        <p>Haz tus pedidos en linea<br>
+                        <p>Haz tus pedidos en línea<br>
                             ¡Ahora mismo!</p>
                     </div>
                     <div class="four columns icono icono3">
