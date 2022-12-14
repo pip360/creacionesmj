@@ -42,10 +42,8 @@
 
     <!-- Lista de clases -->
     
-  <div>
-    <SliderAll></SliderAll>
-  </div>
-    
+
+    <div><SliderAll></SliderAll></div>
 
     <div class="barra">
         <div class="container">
@@ -68,6 +66,8 @@
 
     </div>
     <div>
+
+      
 
       <!-- Slider de fotos -->
      <!--  <div class="slider">
@@ -251,7 +251,8 @@
 
 <script>
 import FooterAll from '../components/FooterAll.vue'
-import SliderAll from '../components/SliderAll.vue'
+import SliderAll from '../components/SliderAll.vue';
+/* import SliderAll from '../components/SliderAll.vue' */
 
 /* import SliderFotos from '../components/SliderFotos.vue';
 import CarouselSlide from '../components/CarouselSlide.vue'; */
@@ -276,7 +277,7 @@ import CarouselSlide from '../components/CarouselSlide.vue'; */
     CarouselSlide, */
     FooterAll,
     SliderAll
-  },
+},
     mounted(){
       const carrito = document.querySelector('#carrito');
 const contenedorCarrito = document.querySelector('#lista-carrito tbody');

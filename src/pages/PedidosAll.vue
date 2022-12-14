@@ -156,7 +156,7 @@
 
       
       function addPedidos(){
-        if(codigo.value != '' && nombrepedido.value != "" && precio.value != "" && cantidad.value != "" && pago.value != "" && nombrecliente.value != "" && cedula.value != "" && correo.value != "" && telefono.value != "" && direccion.value != "" && fecha.value != ""){
+        if(codigo.value != "" && nombrepedido.value != "" && precio.value != "" && cantidad.value != "" && pago.value != "" && nombrecliente.value != "" && cedula.value != "" && correo.value != "" && telefono.value != "" && direccion.value != "" && fecha.value != ""){
           const pedido = {
             codigo:codigo.value,
             nombrepedido:nombrepedido.value,
