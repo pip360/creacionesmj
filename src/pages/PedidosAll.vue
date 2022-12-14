@@ -51,7 +51,7 @@
             <select name="Medio de pago"
             v-model="pago"
             class="form-control">
-              <option value="0">Seleccione una opcion</option>
+              <option value="0">Seleccione una opción</option>
               <option value="">Nequi</option>
               <option value="">Efectivo</option>
             </select>
