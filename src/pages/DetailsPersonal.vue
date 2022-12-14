@@ -15,7 +15,7 @@
       <div v-else class="alert alert-danger" role="alert">
         No hay datos disponibles
       </div>
-      <router-link to="/print" class="btn btn-primary mt-3">Volver</router-link>
+      <router-link to="/persoData" class="btn btn-primary mt-3">Volver</router-link>
     </div>
   </template>
   
