@@ -202,3 +202,9 @@
     // },
   };
   </script>
+  <style>
+  .card {
+    background-color: rgb(240, 125, 255);
+  }
+    
+  </style>

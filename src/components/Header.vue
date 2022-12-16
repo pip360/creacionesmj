@@ -7,13 +7,11 @@
             >INICIO DE SESION</router-link
           >
         </li>
-
         <li class="nav-item" v-if="verificar">
           <router-link to="/home" class="nav-link" active-class="active"
             >Home</router-link
           >
         </li>
-
         <li class="nav-item" v-if="verificar">
           <router-link to="/pedidos" class="nav-link" active-class="active"
             >Hacer Pedido</router-link
@@ -26,12 +24,6 @@
           >
         </li>
         <li class="nav-item" v-if="verificar">
-          <router-link to="/print" class="nav-link" active-class="active"
-            >Productos</router-link
-          >
-        </li>
-
-        <li class="nav-item" v-if="verificar">
           <router-link to="/regislog" class="nav-link" active-class="active"
             >Añadir Usuarios</router-link
           >
@@ -40,6 +32,11 @@
         <li class="nav-item" v-if="verificar">
           <router-link to="/perso" class="nav-link" active-class="active"
             >Añadir Personal </router-link
+          >
+        </li>
+        <li class="nav-item" v-if="verificar">
+          <router-link to="/print" class="nav-link" active-class="active"
+            >Productos</router-link
           >
         </li>
         <li class="nav-item" v-if="verificar">
