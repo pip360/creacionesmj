@@ -49,7 +49,7 @@
         </li>
         <li class="nav-item" v-if="verificar">
           <a class="nav-link" href="./log">Cerrar Sesion</a>
-          <img src="../assets/img/poder.png" alt="cerrar sesion" class="sesion">
+          <img src="../assets/img/poder.png" alt="Cerrar sesión" class="sesion">
         </li>
       </ul>
     </div>
@@ -71,7 +71,6 @@ export default {
     },
   },
 }
-
 </script>
 
 <style>
@@ -137,18 +136,17 @@ display:block;
 height: 40px;
 }
 .sesion{
-  max-width: 50px;
+  max-width: 30px;
   margin: 1rem 3rem;
 }
 .nav img{
   max-width: auto;
 }
 .casa-icon{
-max-width: 50px;
+max-width: 30px;
 margin: 1rem 3rem;
 }
 .nav-item{
   text-align: center;
 }
-
 </style>
