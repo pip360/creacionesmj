@@ -2,10 +2,12 @@
   <nav class="navbar navbar-light nav-pills" style="background: linear-gradient(to right, #e69ded 8%, #e69ded 100%);">
     <div class="con1"> 
       <ul class="nav">
+        <img src="../assets/img/logoCMJ.png" class="imagen_menu"/>
         <li class="nav-item">
           <router-link to="/log" class="nav-link" active-class="active"
-            >INICIO DE SESION</router-link
+            >INICIAR SESION</router-link
           >
+          <img src="../assets/img/perfil-del-usuario.png" alt="iniciar sesion" class="sesion">
         </li>
         <li class="nav-item" v-if="verificar">
           <router-link to="/home" class="nav-link" active-class="active"
@@ -46,9 +48,9 @@
         </li>
         <li class="nav-item" v-if="verificar">
           <a class="nav-link" href="./log">Cerrar Sesion</a>
+          <img src="../assets/img/poder.png" alt="cerrar sesion" class="sesion">
         </li>
       </ul>
-      <img src="../assets/img/logoCMJ.png" class="imagen_menu"/>
     </div>
   </nav>
 
@@ -68,6 +70,7 @@ export default {
     },
   },
 }
+
 </script>
 
 <style>
@@ -75,7 +78,7 @@ a{
 color:rgb(10, 10, 10)
 }
 a.nav-link{
-color:rgb(255, 255, 255)
+color:rgb(255, 255, 255);
 }
 a:hover{
   color:rgb(228, 74, 233);
@@ -129,6 +132,13 @@ a:hover{
   width:500px,
 }
 .imagen_menu{
-display:inline-block;
+display:block;
+}
+.sesion{
+  max-width: 50px;
+  margin: 1rem 3rem;
+}
+.nav img{
+  max-width: auto;
 }
 </style>
