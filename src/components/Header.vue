@@ -51,6 +51,7 @@
           <a class="nav-link" href="./log">Cerrar Sesion</a>
         </li>
       </ul>
+      <img src="../assets/img/logoCMJ.png" class="imagen_menu"/>
     </div>
   </nav>
 
@@ -129,5 +130,8 @@ a:hover{
 }
 .logo{
   width:500px,
+}
+.imagen_menu{
+display:inline-block;
 }
 </style>
