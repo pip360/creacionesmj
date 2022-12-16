@@ -7,7 +7,7 @@
           <router-link to="/log" class="nav-link" active-class="active"
             >INICIAR SESION</router-link
           >
-          <img src="../assets/img/perfil-del-usuario.png" alt="iniciar sesion" class="sesion">
+          <img src="../assets/img/user.png" alt="iniciar sesion" class="sesion">
         </li>
         <li class="nav-item" v-if="verificar">
           <router-link to="/home" class="nav-link" active-class="active"
@@ -133,7 +133,7 @@ a:hover{
 }
 .imagen_menu{
 display:block;
-height: 40px;
+height: 50px;
 }
 .sesion{
   max-width: 30px;

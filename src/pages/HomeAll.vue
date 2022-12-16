@@ -254,8 +254,6 @@ import FooterAll from '../components/FooterAll.vue'
 import SliderAll from '../components/SliderAll.vue';
 /* import SliderAll from '../components/SliderAll.vue' */
 
-/* import SliderFotos from '../components/SliderFotos.vue';
-import CarouselSlide from '../components/CarouselSlide.vue'; */
 
   export default {
     data() {
