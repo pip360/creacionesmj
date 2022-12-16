@@ -13,6 +13,7 @@
           <router-link to="/home" class="nav-link" active-class="active"
             >Home</router-link
           >
+          <img src="../assets/img/home-icon.png" class="casa-icon">
         </li>
         <li class="nav-item" v-if="verificar">
           <router-link to="/pedidos" class="nav-link" active-class="active"
@@ -133,6 +134,7 @@ a:hover{
 }
 .imagen_menu{
 display:block;
+height: 40px;
 }
 .sesion{
   max-width: 50px;
@@ -141,4 +143,12 @@ display:block;
 .nav img{
   max-width: auto;
 }
+.casa-icon{
+max-width: 50px;
+margin: 1rem 3rem;
+}
+.nav-item{
+  text-align: center;
+}
+
 </style>
