@@ -19,33 +19,39 @@
           <router-link to="/pedidos" class="nav-link" active-class="active"
             >Hacer Pedido</router-link
           >
+          <img src="../assets/img/pedido-en-linea.png" alt="pedido" class="sesion">
         </li>
 
         <li class="nav-item" v-if="verificar">
           <router-link to="/prod" class="nav-link" active-class="active"
             >Añadir Productos</router-link
           >
+          <img src="../assets/img/agregar-producto.png" alt="agregarProducto" class="sesion">
         </li>
         <li class="nav-item" v-if="verificar">
           <router-link to="/regislog" class="nav-link" active-class="active"
             >Añadir Usuarios</router-link
           >
+          <img src="../assets/img/agregar-usuario.png" alt="agregarUsuario" class="sesion">
         </li>
 
         <li class="nav-item" v-if="verificar">
           <router-link to="/perso" class="nav-link" active-class="active"
             >Añadir Personal </router-link
           >
+           <img src="../assets/img/nuevo-usuario.png" alt="agregarPersonal" class="sesion">
         </li>
         <li class="nav-item" v-if="verificar">
           <router-link to="/print" class="nav-link" active-class="active"
             >Productos</router-link
           >
+          <img src="../assets/img/caja.png" alt="Productos" class="sesion">
         </li>
         <li class="nav-item" v-if="verificar">
           <router-link to="/persoData" class="nav-link" active-class="active"
             >Personal</router-link
           >
+          <img src="../assets/img/informacion-personal.png" alt="Personal" class="sesion">
         </li>
         <li class="nav-item" v-if="verificar">
           <a class="nav-link" href="./log">Cerrar Sesion</a>
